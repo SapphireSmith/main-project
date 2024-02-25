@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spare parts details</title>
+</head>
+
+<body>
+    <div>
+        <h2>Spare parts details</h2>
+    </div>
+
+    <div>
+<form action="sparepartsDetailsAction.php" method="post">
+            <label for="">Parts name</label>
+            <input type="text" placeholder="Enter name" name="sparepart_name"> <br>
+
+            <label for=""> description </label>
+            <textarea name="description" id="" cols="30" rows="10"></textarea><br>
+
+            <label for="">Upload the image</label>
+            <input name="file" type="file"><br>
+
+            <label for="">Price</label>
+            <input name="price" type="text" placeholder="price"><br>
+
+            <label for="">total stock</label>
+            <input name="stock" type="text" placeholder="enter no of available stock"><br>
+
+
+            <input type="submit" value="Add">
+        </form>
+    </div>
+</body>
+
+</html>
